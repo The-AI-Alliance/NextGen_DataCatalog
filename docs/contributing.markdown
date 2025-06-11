@@ -8,8 +8,8 @@ nav_order: 90
 
 The following people have contributed to the creation and maintenance of this project:
 
-* [Joe Olson](https://github.com/jolson-ibm)
-* [Dean Wampler](https://github.com/deanwampler)
+* [Joe Olson](https://github.com/jolson-ibm){:target="_blank"}
+* [Dean Wampler](https://github.com/deanwampler){:target="_blank"}
 
 # How to Contribute to this Project
 
