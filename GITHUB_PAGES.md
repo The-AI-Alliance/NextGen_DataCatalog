@@ -1,6 +1,6 @@
 # Editing and Publishing the GitHub Pages Website
 
-The [published website](https://the-ai-alliance.github.io/REPO_NAME/).
+The [published website](https://the-ai-alliance.github.io/NextGen_DataCatalog/).
 
 The documentation for this repo is published using [GitHub Pages](https://pages.github.com/). We welcome contributions as PRs. See the AI Alliance [CONTRIBUTING](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md) instructions. Also, you'll need to agree with the AI Alliance [Code of Conduct](https://github.com/The-AI-Alliance/community/blob/main/CODE_OF_CONDUCT.md) and all contributions will be covered by the [LICENSE](https://github.com/The-AI-Alliance/community/blob/main/LICENSE) (which is also in [this repo](LICENSE)).
 
@@ -30,7 +30,7 @@ Install a recent version of Ruby 3. Note that on MacOS, the default Ruby install
 This project's `Makefile` will attempt to install the remaining dependencies, including `jekyll`, when you run `make all` or `make view-local`.
 
 > [!WARNING]
-> The automatic setup of `jekyll` in the `Makefile` has only been tested on MacOS and it most likely doesn't work on Windows, unless you use the Linux subsystem. If you encounter problems on other platforms, please [post an issue](https://github.com/The-AI-Alliance/REPO_NAME/issues) to get help, or if you can fix the issue, a [pull request](https://github.com/The-AI-Alliance/REPO_NAME/pulls) (PR) is always welcome :nerd_face:. (More details on PRs below.)
+> The automatic setup of `jekyll` in the `Makefile` has only been tested on MacOS and it most likely doesn't work on Windows, unless you use the Linux subsystem. If you encounter problems on other platforms, please [post an issue](https://github.com/The-AI-Alliance/NextGen_DataCatalog/issues) to get help, or if you can fix the issue, a [pull request](https://github.com/The-AI-Alliance/NextGen_DataCatalog/pulls) (PR) is always welcome :nerd_face:. (More details on PRs below.)
 
 So, try `make view-local` and see if Jekyll is installed successfully and the website is rendered.
 
@@ -119,7 +119,7 @@ This plugin effectively adds `target="_blank"` to every anchor tag, i.e., `<a hr
 [`jekyll-target-blank` plugin](https://github.com/keithmifsud/jekyll-target-blank){:target="arbitrary_name"}
 ```
 
-Furthermore, as a visual clue to the user, [our stylesheet](https://github.com/The-AI-Alliance/REPO_NAME/blob/main/docs/_includes/css/custom.scss.liquid) is configured to put little up-and-to-the-right arrows after every external link. This provides a visual clue that a new tab will be opened.
+Furthermore, as a visual clue to the user, [our stylesheet](https://github.com/The-AI-Alliance/NextGen_DataCatalog/blob/main/docs/_includes/css/custom.scss.liquid) is configured to put little up-and-to-the-right arrows after every external link. This provides a visual clue that a new tab will be opened.
 
 ### Emojis
 
@@ -180,7 +180,7 @@ cd docs && bundle exec jekyll serve --port ${JEKYLL_PORT} --baseurl '' --increme
 ```
 
 * `JEKYLL_PORT` for the `--port` flag defaults to `4000`
-* The `--baseurl` flag effectively supports the simple URL, `localhost:$JEKYLL_PORT`. (Without it, the URL would be `localhost:$JEKYLL_PORT/The-AI-Alliance/REPO_NAME/`.) 
+* The `--baseurl` flag effectively supports the simple URL, `localhost:$JEKYLL_PORT`. (Without it, the URL would be `localhost:$JEKYLL_PORT/The-AI-Alliance/NextGen_DataCatalog/`.) 
 * The `--incremental` flag lets you edit the pages and refresh the browser tab to see the updates immediately. 
 
 > [!NOTE]
@@ -240,7 +240,7 @@ bundle install
 bundle update html-pipeline
 ```
 
-Finally, if you are still stuck, please [post an issue](https://github.com/The-AI-Alliance/REPO_NAME/issues) to get help.
+Finally, if you are still stuck, please [post an issue](https://github.com/The-AI-Alliance/NextGen_DataCatalog/issues) to get help.
 
 > **Help Needed:**
 >
@@ -266,4 +266,4 @@ gem list | grep jekyll
 
 This section documents the one-time settings changes we did to [configure publication of our GitHub Pages](https://docs.github.com/en/enterprise-server@3.1/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). We changed the desired branch to use, `latest`, rather than the default `main` branch, and we specified the directory for the website pages, `docs`. This only needs to be done if and when the branch or directory location is changed.
 
-In the repo's [_Settings > Pages_ section](https://github.com/The-AI-Alliance/REPO_NAME/settings/pages), set the branch to be `latest` and the folder to be `/docs`. The reason for using `latest` rather than `main`, is to allow small change PRs to be made without affecting what is published until we decide to publish an update.
+In the repo's [_Settings > Pages_ section](https://github.com/The-AI-Alliance/NextGen_DataCatalog/settings/pages), set the branch to be `latest` and the folder to be `/docs`. The reason for using `latest` rather than `main`, is to allow small change PRs to be made without affecting what is published until we decide to publish an update.

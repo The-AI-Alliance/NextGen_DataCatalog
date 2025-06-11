@@ -1,10 +1,10 @@
-# README for MICROSITE_TITLE
+# README for Next Generation OTDI Data Catalog
 
-[Published Documentation](https://the-ai-alliance.github.io/REPO_NAME/)
+[Published Documentation](https://the-ai-alliance.github.io/NextGen_DataCatalog/)
 
-This repo contains the code and documentation for the AI Alliance: MICROSITE_TITLE.
+This repo contains the code and documentation for the AI Alliance: Next Generation OTDI Data Catalog.
 
-See the [repo README](https://the-ai-alliance.github.io/REPO_NAME/) for additional details about this project.
+See the [repo README](https://the-ai-alliance.github.io/NextGen_DataCatalog/) for additional details about this project.
 
 TODO - Describe this project
 
